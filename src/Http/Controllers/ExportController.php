@@ -1,12 +1,12 @@
 <?php
 
-namespace Botble\DataSynchronize\Http\Controllers;
+namespace Tiryaq\DataSynchronize\Http\Controllers;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Supports\Breadcrumb;
-use Botble\DataSynchronize\Exporter\Exporter;
-use Botble\DataSynchronize\Http\Requests\ExportRequest;
+use Tiryaq\DataSynchronize\Exporter\Exporter;
+use Tiryaq\DataSynchronize\Http\Requests\ExportRequest;
 use Botble\Ecommerce\Models\Product;
 use Botble\Media\Facades\RvMedia;
 use Symfony\Component\HttpFoundation\StreamedResponse;

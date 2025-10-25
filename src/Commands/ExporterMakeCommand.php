@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Commands;
+namespace Tiryaq\DataSynchronize\Commands;
 
 use Illuminate\Support\Stringable;
 
@@ -139,7 +139,7 @@ class ExporterMakeCommand extends GeneratorCommand
         $stub = <<<'PHP'
         use Botble\Base\Facades\PanelSectionManager;
         use Botble\Base\PanelSections\PanelSectionItem;
-        use Botble\DataSynchronize\PanelSections\ExportPanelSection;
+        use Tiryaq\DataSynchronize\PanelSections\ExportPanelSection;
 
         PanelSectionManager::setGroupId('data-synchronize')->beforeRendering(function () {
             PanelSectionManager::default()->registerItem(

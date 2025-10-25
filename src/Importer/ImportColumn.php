@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Importer;
+namespace Tiryaq\DataSynchronize\Importer;
 
 class ImportColumn
 {

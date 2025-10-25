@@ -1,13 +1,13 @@
 <?php
 
-namespace Botble\DataSynchronize\Http\Controllers;
+namespace Tiryaq\DataSynchronize\Http\Controllers;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Supports\Breadcrumb;
-use Botble\DataSynchronize\Http\Requests\DownloadTemplateRequest;
-use Botble\DataSynchronize\Http\Requests\ImportRequest;
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\DataSynchronize\Http\Requests\DownloadTemplateRequest;
+use Tiryaq\DataSynchronize\Http\Requests\ImportRequest;
+use Tiryaq\DataSynchronize\Importer\Importer;
 use Exception;
 use Illuminate\Http\Request;
 

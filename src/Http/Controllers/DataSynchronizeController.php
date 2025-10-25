@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Http\Controllers;
+namespace Tiryaq\DataSynchronize\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Supports\Breadcrumb;

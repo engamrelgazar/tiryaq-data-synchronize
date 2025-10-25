@@ -1,21 +1,21 @@
 <?php
 
-namespace Botble\DataSynchronize\Providers;
+namespace Tiryaq\DataSynchronize\Providers;
 
 use Botble\Base\Facades\DashboardMenu;
 use Botble\Base\Facades\PanelSectionManager as PanelSectionManagerFacade;
 use Botble\Base\Supports\ServiceProvider;
 use Botble\Base\Traits\LoadAndPublishDataTrait;
-use Botble\DataSynchronize\Commands\ClearChunksCommand;
-use Botble\DataSynchronize\Commands\ExportCommand;
-use Botble\DataSynchronize\Commands\ExportControllerMakeCommand;
-use Botble\DataSynchronize\Commands\ExporterMakeCommand;
-use Botble\DataSynchronize\Commands\ImportCommand;
-use Botble\DataSynchronize\Commands\ImportControllerMakeCommand;
-use Botble\DataSynchronize\Commands\ImporterMakeCommand;
-use Botble\DataSynchronize\Commands\TestLargeExportCommand;
-use Botble\DataSynchronize\PanelSections\ExportPanelSection;
-use Botble\DataSynchronize\PanelSections\ImportPanelSection;
+use Tiryaq\DataSynchronize\Commands\ClearChunksCommand;
+use Tiryaq\DataSynchronize\Commands\ExportCommand;
+use Tiryaq\DataSynchronize\Commands\ExportControllerMakeCommand;
+use Tiryaq\DataSynchronize\Commands\ExporterMakeCommand;
+use Tiryaq\DataSynchronize\Commands\ImportCommand;
+use Tiryaq\DataSynchronize\Commands\ImportControllerMakeCommand;
+use Tiryaq\DataSynchronize\Commands\ImporterMakeCommand;
+use Tiryaq\DataSynchronize\Commands\TestLargeExportCommand;
+use Tiryaq\DataSynchronize\PanelSections\ExportPanelSection;
+use Tiryaq\DataSynchronize\PanelSections\ImportPanelSection;
 use Illuminate\Console\Scheduling\Schedule;
 
 class DataSynchronizeServiceProvider extends ServiceProvider

@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Commands;
+namespace Tiryaq\DataSynchronize\Commands;
 
 use Illuminate\Console\GeneratorCommand as BaseGeneratorCommand;
 use Illuminate\Support\Arr;

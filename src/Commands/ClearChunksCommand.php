@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Commands;
+namespace Tiryaq\DataSynchronize\Commands;
 
 use Botble\Base\Facades\BaseHelper;
 use Illuminate\Console\Command;

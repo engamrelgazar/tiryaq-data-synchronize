@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Concerns\Exporter;
+namespace Tiryaq\DataSynchronize\Concerns\Exporter;
 
 use Illuminate\Contracts\View\View;
 

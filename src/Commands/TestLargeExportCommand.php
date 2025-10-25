@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Commands;
+namespace Tiryaq\DataSynchronize\Commands;
 
 use Botble\Ecommerce\Exporters\ProductExporter;
 use Illuminate\Console\Command;

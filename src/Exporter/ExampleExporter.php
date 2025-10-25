@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\DataSynchronize\Exporter;
+namespace Tiryaq\DataSynchronize\Exporter;
 
-use Botble\DataSynchronize\Importer\ImportColumn;
+use Tiryaq\DataSynchronize\Importer\ImportColumn;
 use Illuminate\Support\Collection;
 
 class ExampleExporter extends Exporter
