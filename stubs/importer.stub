@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Botble\DataSynchronize\Importer\ImportColumn;
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\DataSynchronize\Importer\ImportColumn;
+use Tiryaq\DataSynchronize\Importer\Importer;
 
 class {{ class }} extends Importer
 {
