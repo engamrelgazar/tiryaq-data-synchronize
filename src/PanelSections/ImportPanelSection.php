@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\PanelSections;
 
-use Botble\Base\PanelSections\PanelSection;
+use Tiryaq\Base\PanelSections\PanelSection;
 
 class ImportPanelSection extends PanelSection
 {
