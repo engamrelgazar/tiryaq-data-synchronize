@@ -20,6 +20,6 @@
     }
   },
   "replace": {
-    "botble/data-synchronize": "self.version"
+    "tiryaq/data-synchronize": "self.version"
   }
 }
