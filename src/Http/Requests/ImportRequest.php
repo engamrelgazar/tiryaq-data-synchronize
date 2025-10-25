@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\Http\Requests;
 
-use Botble\Support\Http\Requests\Request;
+use Tiryaq\Support\Http\Requests\Request;
 
 class ImportRequest extends Request
 {
