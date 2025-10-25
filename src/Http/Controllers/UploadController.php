@@ -2,11 +2,11 @@
 
 namespace Tiryaq\DataSynchronize\Http\Controllers;
 
-use Botble\Base\Http\Controllers\BaseController;
-use Botble\Base\Http\Responses\BaseHttpResponse;
-use Botble\Media\Chunks\Exceptions\UploadMissingFileException;
-use Botble\Media\Chunks\Handler\DropZoneUploadHandler;
-use Botble\Media\Chunks\Receiver\FileReceiver;
+use Tiryaq\Base\Http\Controllers\BaseController;
+use Tiryaq\Base\Http\Responses\BaseHttpResponse;
+use Tiryaq\Media\Chunks\Exceptions\UploadMissingFileException;
+use Tiryaq\Media\Chunks\Handler\DropZoneUploadHandler;
+use Tiryaq\Media\Chunks\Receiver\FileReceiver;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
