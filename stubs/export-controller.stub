@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Botble\DataSynchronize\Exporter\Exporter;
-use Botble\DataSynchronize\Http\Controllers\ExportController;
+use Tiryaq\DataSynchronize\Exporter\Exporter;
+use Tiryaq\DataSynchronize\Http\Controllers\ExportController;
 use {{ exporterNamespace }};
 
 class {{ class }} extends ExportController
