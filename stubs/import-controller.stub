@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Botble\DataSynchronize\Http\Controllers\ImportController;
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\DataSynchronize\Http\Controllers\ImportController;
+use Tiryaq\DataSynchronize\Importer\Importer;
 use {{ importerNamespace }};
 
 class {{ class }} extends ImportController
