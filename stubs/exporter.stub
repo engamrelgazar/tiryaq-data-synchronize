@@ -2,8 +2,8 @@
 
 namespace {{ namespace }};
 
-use Botble\DataSynchronize\Exporter\ExportColumn;
-use Botble\DataSynchronize\Exporter\Exporter;
+use Tiryaq\DataSynchronize\Exporter\ExportColumn;
+use Tiryaq\DataSynchronize\Exporter\Exporter;
 use Illuminate\Support\Collection;
 
 class {{ class }} extends Exporter
