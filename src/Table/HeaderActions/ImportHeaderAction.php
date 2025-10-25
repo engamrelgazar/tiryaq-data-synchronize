@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Table\HeaderActions;
+namespace Tiryaq\DataSynchronize\Table\HeaderActions;
 
 use Botble\Table\HeaderActions\HeaderAction;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Enums;
+namespace Tiryaq\DataSynchronize\Enums;
 
 use Botble\Base\Supports\Enum;
 

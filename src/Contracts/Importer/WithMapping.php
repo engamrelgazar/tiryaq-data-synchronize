@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Contracts\Importer;
+namespace Tiryaq\DataSynchronize\Contracts\Importer;
 
 interface WithMapping
 {

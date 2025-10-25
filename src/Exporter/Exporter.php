@@ -1,11 +1,11 @@
 <?php
 
-namespace Botble\DataSynchronize\Exporter;
+namespace Tiryaq\DataSynchronize\Exporter;
 
 use Botble\Base\Facades\Assets;
 use Botble\Base\Facades\BaseHelper;
-use Botble\DataSynchronize\Concerns\Exporter\HasEmptyState;
-use Botble\DataSynchronize\Enums\ExportColumnType;
+use Tiryaq\DataSynchronize\Concerns\Exporter\HasEmptyState;
+use Tiryaq\DataSynchronize\Enums\ExportColumnType;
 use Carbon\Carbon;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Arr;
@@ -40,7 +40,7 @@ abstract class Exporter implements FromCollection, ShouldAutoSize, WithColumnFor
     protected int $memoryCheckInterval = 1000;
 
     /**
-     * @return \Botble\DataSynchronize\Exporter\ExportColumn[]
+     * @return \Tiryaq\DataSynchronize\Exporter\ExportColumn[]
      */
     abstract public function columns(): array;
 
@@ -73,7 +73,7 @@ abstract class Exporter implements FromCollection, ShouldAutoSize, WithColumnFor
     }
 
     /**
-     * @return \Botble\DataSynchronize\Exporter\ExportCounter[]
+     * @return \Tiryaq\DataSynchronize\Exporter\ExportCounter[]
      */
     public function getCounters(): array
     {
@@ -171,7 +171,7 @@ abstract class Exporter implements FromCollection, ShouldAutoSize, WithColumnFor
     }
 
     /**
-     * @return \Botble\DataSynchronize\Exporter\ExportColumn[]
+     * @return \Tiryaq\DataSynchronize\Exporter\ExportColumn[]
      */
     public function getColumns(): array
     {
@@ -235,7 +235,7 @@ abstract class Exporter implements FromCollection, ShouldAutoSize, WithColumnFor
     }
 
     /**
-     * @return \Botble\DataSynchronize\Exporter\ExportColumn[]
+     * @return \Tiryaq\DataSynchronize\Exporter\ExportColumn[]
      */
     public function getAcceptedColumns(): array
     {

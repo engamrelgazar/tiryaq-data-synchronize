@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\DataSynchronize\Commands;
+namespace Tiryaq\DataSynchronize\Commands;
 
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\DataSynchronize\Importer\Importer;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Support\Facades\Storage;

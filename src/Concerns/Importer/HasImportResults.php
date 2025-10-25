@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Concerns\Importer;
+namespace Tiryaq\DataSynchronize\Concerns\Importer;
 
 use Illuminate\Support\Collection;
 

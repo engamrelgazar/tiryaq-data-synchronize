@@ -1,14 +1,14 @@
 <?php
 
-namespace Botble\DataSynchronize\Importer;
+namespace Tiryaq\DataSynchronize\Importer;
 
 use Botble\Base\Facades\Assets;
 use Botble\Base\Facades\BaseHelper;
-use Botble\DataSynchronize\Concerns\Importer\HasImportResults;
-use Botble\DataSynchronize\Contracts\Importer\WithMapping;
-use Botble\DataSynchronize\DataTransferObjects\ChunkImportResponse;
-use Botble\DataSynchronize\DataTransferObjects\ChunkValidateResponse;
-use Botble\DataSynchronize\Exporter\ExampleExporter;
+use Tiryaq\DataSynchronize\Concerns\Importer\HasImportResults;
+use Tiryaq\DataSynchronize\Contracts\Importer\WithMapping;
+use Tiryaq\DataSynchronize\DataTransferObjects\ChunkImportResponse;
+use Tiryaq\DataSynchronize\DataTransferObjects\ChunkValidateResponse;
+use Tiryaq\DataSynchronize\Exporter\ExampleExporter;
 use Botble\Media\Facades\RvMedia;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Filesystem\Filesystem;

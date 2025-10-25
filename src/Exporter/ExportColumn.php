@@ -1,8 +1,8 @@
 <?php
 
-namespace Botble\DataSynchronize\Exporter;
+namespace Tiryaq\DataSynchronize\Exporter;
 
-use Botble\DataSynchronize\Enums\ExportColumnType;
+use Tiryaq\DataSynchronize\Enums\ExportColumnType;
 
 class ExportColumn
 {

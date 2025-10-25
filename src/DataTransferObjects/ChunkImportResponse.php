@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\DataTransferObjects;
+namespace Tiryaq\DataSynchronize\DataTransferObjects;
 
 class ChunkImportResponse extends ChunkResponse
 {

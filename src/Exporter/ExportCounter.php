@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Exporter;
+namespace Tiryaq\DataSynchronize\Exporter;
 
 class ExportCounter
 {

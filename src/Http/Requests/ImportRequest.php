@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\Http\Requests;
+namespace Tiryaq\DataSynchronize\Http\Requests;
 
 use Botble\Support\Http\Requests\Request;
 

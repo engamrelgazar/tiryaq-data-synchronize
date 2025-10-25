@@ -1,6 +1,6 @@
 <?php
 
-namespace Botble\DataSynchronize\PanelSections;
+namespace Tiryaq\DataSynchronize\PanelSections;
 
 use Botble\Base\PanelSections\PanelSection;
 
