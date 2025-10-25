@@ -1,9 +1,9 @@
 <?php
 
-use Botble\Base\Facades\AdminHelper;
-use Botble\Base\Http\Middleware\DisableInDemoModeMiddleware;
-use Botble\DataSynchronize\Http\Controllers\DataSynchronizeController;
-use Botble\DataSynchronize\Http\Controllers\UploadController;
+use Tiryaq\Base\Facades\AdminHelper;
+use Tiryaq\Base\Http\Middleware\DisableInDemoModeMiddleware;
+use Tiryaq\DataSynchronize\Http\Controllers\DataSynchronizeController;
+use Tiryaq\DataSynchronize\Http\Controllers\UploadController;
 use Illuminate\Support\Facades\Route;
 
 AdminHelper::registerRoutes(function () {
