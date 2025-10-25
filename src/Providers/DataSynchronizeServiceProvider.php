@@ -2,10 +2,10 @@
 
 namespace Tiryaq\DataSynchronize\Providers;
 
-use Botble\Base\Facades\DashboardMenu;
-use Botble\Base\Facades\PanelSectionManager as PanelSectionManagerFacade;
-use Botble\Base\Supports\ServiceProvider;
-use Botble\Base\Traits\LoadAndPublishDataTrait;
+use Tiryaq\Base\Facades\DashboardMenu;
+use Tiryaq\Base\Facades\PanelSectionManager as PanelSectionManagerFacade;
+use Tiryaq\Base\Supports\ServiceProvider;
+use Tiryaq\Base\Traits\LoadAndPublishDataTrait;
 use Tiryaq\DataSynchronize\Commands\ClearChunksCommand;
 use Tiryaq\DataSynchronize\Commands\ExportCommand;
 use Tiryaq\DataSynchronize\Commands\ExportControllerMakeCommand;
