@@ -2,9 +2,9 @@
 
 namespace Tiryaq\DataSynchronize\Http\Controllers;
 
-use Botble\Base\Facades\BaseHelper;
-use Botble\Base\Http\Controllers\BaseController;
-use Botble\Base\Supports\Breadcrumb;
+use Tiryaq\Base\Facades\BaseHelper;
+use Tiryaq\Base\Http\Controllers\BaseController;
+use Tiryaq\Base\Supports\Breadcrumb;
 use Tiryaq\DataSynchronize\Http\Requests\DownloadTemplateRequest;
 use Tiryaq\DataSynchronize\Http\Requests\ImportRequest;
 use Tiryaq\DataSynchronize\Importer\Importer;
