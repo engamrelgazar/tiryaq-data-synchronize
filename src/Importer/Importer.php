@@ -2,14 +2,14 @@
 
 namespace Tiryaq\DataSynchronize\Importer;
 
-use Botble\Base\Facades\Assets;
-use Botble\Base\Facades\BaseHelper;
+use Tiryaq\Base\Facades\Assets;
+use Tiryaq\Base\Facades\BaseHelper;
 use Tiryaq\DataSynchronize\Concerns\Importer\HasImportResults;
 use Tiryaq\DataSynchronize\Contracts\Importer\WithMapping;
 use Tiryaq\DataSynchronize\DataTransferObjects\ChunkImportResponse;
 use Tiryaq\DataSynchronize\DataTransferObjects\ChunkValidateResponse;
 use Tiryaq\DataSynchronize\Exporter\ExampleExporter;
-use Botble\Media\Facades\RvMedia;
+use Tiryaq\Media\Facades\RvMedia;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Contracts\View\View;

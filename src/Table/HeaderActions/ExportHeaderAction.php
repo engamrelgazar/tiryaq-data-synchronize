@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\Table\HeaderActions;
 
-use Botble\Table\HeaderActions\HeaderAction;
+use Tiryaq\Table\HeaderActions\HeaderAction;
 
 class ExportHeaderAction extends HeaderAction
 {

@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\Enums;
 
-use Botble\Base\Supports\Enum;
+use Tiryaq\Base\Supports\Enum;
 
 class ExportColumnType extends Enum
 {

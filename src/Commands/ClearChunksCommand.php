@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\Commands;
 
-use Botble\Base\Facades\BaseHelper;
+use Tiryaq\Base\Facades\BaseHelper;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
