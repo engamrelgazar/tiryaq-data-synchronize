@@ -2,7 +2,7 @@
 
 namespace Tiryaq\DataSynchronize\Commands;
 
-use Botble\Ecommerce\Exporters\ProductExporter;
+use Tiryaq\Ecommerce\Exporters\ProductExporter;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 
