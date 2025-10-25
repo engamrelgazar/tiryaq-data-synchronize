@@ -8,7 +8,7 @@
     }
   },
   "require": {
-    "botble/platform": "*@dev",
+    "tiryaq/platform": "*@dev",
     "maatwebsite/excel": "^3.1",
     "spatie/simple-excel": "^3.6"
   },
