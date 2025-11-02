@@ -131,7 +131,7 @@ class ImportCommand extends Command implements PromptsForMissingInput
     protected function promptForMissingArgumentsUsing(): array
     {
         return [
-            'importer' => ['What is the importer class name?', 'E.g. Botble\Blog\Importers\PostImporter'],
+            'importer' => ['What is the importer class name?', 'E.g. Tiryaq\Blog\Importers\PostImporter'],
             'path' => ['Where is the source Excel/CSV file?', 'E.g. ~/Downloads/posts.xlsx'],
         ];
     }

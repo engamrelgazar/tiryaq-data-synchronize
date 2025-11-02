@@ -1,5 +1,5 @@
 @php
-    /** @var \Botble\DataSynchronize\Importer\Importer $importer */
+    /** @var \Tiryaq\DataSynchronize\Importer\Importer $importer */
 
     $acceptedFiles = Arr::join(array_map(fn ($item) => $item, $importer->getAcceptedFiles()), ',');
 @endphp

@@ -113,7 +113,7 @@ class ExportCommand extends Command implements PromptsForMissingInput
     protected function promptForMissingArgumentsUsing(): array
     {
         return [
-            'exporter' => ['What is the exporter class name?', 'E.g. Botble\Blog\Exporters\PostExporter'],
+            'exporter' => ['What is the exporter class name?', 'E.g. Tiryaq\Blog\Exporters\PostExporter'],
             'path' => ['Where do you want to save the file?', 'E.g. storage/app/exports'],
         ];
     }

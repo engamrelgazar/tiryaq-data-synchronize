@@ -23,11 +23,11 @@ This is how an exporter should look like, below is an example of a `PostExporter
 ```php
 <?php
 
-namespace Botble\Blog\Exporters;
+namespace Tiryaq\Blog\Exporters;
 
-use Botble\Blog\Models\Post;
-use Botble\DataSynchronize\Exporter\ExportColumn;
-use Botble\DataSynchronize\Exporter\Exporter;
+use Tiryaq\Blog\Models\Post;
+use Tiryaq\DataSynchronize\Exporter\ExportColumn;
+use Tiryaq\DataSynchronize\Exporter\Exporter;
 use Illuminate\Support\Collection;
 
 class PostExporter extends Exporter
@@ -58,11 +58,11 @@ This is how to use the exporter in a controller.
 ```php
 <?php
 
-namespace Botble\Blog\Http\Controllers;
+namespace Tiryaq\Blog\Http\Controllers;
 
-use Botble\DataSynchronize\Exporter\Exporter;
-use Botble\DataSynchronize\Http\Controllers\ExportController;
-use Botble\Blog\Exporters\PostExporter;
+use Tiryaq\DataSynchronize\Exporter\Exporter;
+use Tiryaq\DataSynchronize\Http\Controllers\ExportController;
+use Tiryaq\Blog\Exporters\PostExporter;
 
 class ExportPostController extends ExportController
 {
@@ -76,9 +76,9 @@ class ExportPostController extends ExportController
 And then register the route in your routes file.
 
 ```php
-use Botble\Base\Facades\AdminHelper;
+use Tiryaq\Base\Facades\AdminHelper;
 use Illuminate\Support\Facades\Route;
-use Botble\Blog\Http\Controllers\ExportPostController;
+use Tiryaq\Blog\Http\Controllers\ExportPostController;
 
 AdminHelper::registerRoutes(function () {
     Route::prefix('tools/data-synchronize')->name('tools.data-synchronize.')->group(function () {
@@ -116,9 +116,9 @@ To add the exporter to the Export/Import Data panel section, you can use the `be
 the `PanelSectionManager` class to register the exporter into the panel section.
 
 ```php
-use Botble\Base\Facades\PanelSectionManager;
-use Botble\Base\PanelSections\PanelSectionItem;
-use Botble\DataSynchronize\PanelSections\ExportPanelSection;
+use Tiryaq\Base\Facades\PanelSectionManager;
+use Tiryaq\Base\PanelSections\PanelSectionItem;
+use Tiryaq\DataSynchronize\PanelSections\ExportPanelSection;
 
 public function boot(): void
 {
@@ -166,11 +166,11 @@ This is how an importer should look like, below is an example of a `PostImporter
 ```php
 <?php
 
-namespace Botble\Blog\Importers;
+namespace Tiryaq\Blog\Importers;
 
-use Botble\Blog\Models\Post;
-use Botble\DataSynchronize\Importer\ImportColumn;
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\Blog\Models\Post;
+use Tiryaq\DataSynchronize\Importer\ImportColumn;
+use Tiryaq\DataSynchronize\Importer\Importer;
 
 class PostImporter extends Importer
 {
@@ -243,10 +243,10 @@ This is how to use the importer in a controller.
 ```php
 <?php
 
-namespace Botble\Blog\Http\Controllers;
+namespace Tiryaq\Blog\Http\Controllers;
 
-use Botble\DataSynchronize\Http\Controllers\ImportController;
-use Botble\DataSynchronize\Importer\Importer;
+use Tiryaq\DataSynchronize\Http\Controllers\ImportController;
+use Tiryaq\DataSynchronize\Importer\Importer;
 
 class ImportPostController extends ImportController
 {
@@ -260,7 +260,7 @@ class ImportPostController extends ImportController
 And then register the route in your routes file.
 
 ```php
-use Botble\Base\Facades\AdminHelper;
+use Tiryaq\Base\Facades\AdminHelper;
 
 AdminHelper::registerRoutes(function () {
     Route::prefix('tools/data-synchronize')->name('tools.data-synchronize.')->group(function () {
@@ -295,9 +295,9 @@ Now you can navigate to `http://your-domain/tools/data-synchronize/import/posts`
 To add the importer to the Export/Import Data panel section, you can use the `beforeRendering` method of the `PanelSectionManager` class to register the importer into the panel section.
 
 ```php
-use Botble\Base\Facades\PanelSectionManager;
-use Botble\Base\PanelSections\PanelSectionItem;
-use Botble\DataSynchronize\PanelSections\ImportPanelSection;
+use Tiryaq\Base\Facades\PanelSectionManager;
+use Tiryaq\Base\PanelSections\PanelSectionItem;
+use Tiryaq\DataSynchronize\PanelSections\ImportPanelSection;
 
 public function boot(): void
 {

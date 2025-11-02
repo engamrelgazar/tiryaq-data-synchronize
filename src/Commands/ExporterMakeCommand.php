@@ -137,8 +137,8 @@ class ExporterMakeCommand extends GeneratorCommand
     protected function createPanelSection(): void
     {
         $stub = <<<'PHP'
-        use Botble\Base\Facades\PanelSectionManager;
-        use Botble\Base\PanelSections\PanelSectionItem;
+        use Tiryaq\Base\Facades\PanelSectionManager;
+        use Tiryaq\Base\PanelSections\PanelSectionItem;
         use Tiryaq\DataSynchronize\PanelSections\ExportPanelSection;
 
         PanelSectionManager::setGroupId('data-synchronize')->beforeRendering(function () {
